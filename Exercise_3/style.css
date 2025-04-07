@@ -1,0 +1,44 @@
+body{
+    margin: 10px 368px;
+}
+.main{
+    border: 3px solid blueviolet;
+    height: 70vh;
+    width: 25vw;
+    border-radius: 10px;
+    padding: 6px;
+
+}
+img{
+    height: 30vh;
+    width: 25vw;
+    /* margin: 6px; */
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+nav span{
+    border: 1px solid rgb(113, 113, 113);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.des{
+    margin: 6px;
+    margin-bottom: 40px;
+}
+.but{
+    text-align: center;
+    
+}
+button{
+    width: 30%;
+    border: none solid rgb(112, 112, 112);
+    border-radius: 15px;
+    padding: 7px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(61, 61, 146);
+    cursor: pointer;
+}

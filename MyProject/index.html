@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CSE department is the Royal and oldest departmentin Islamic University">
+    <title>Project website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <h1>department of cse</h1>
+    <h2>department of cse</h2>
+    <h3>department of cse</h6>
+    <h4>department of cse</h4>
+    <h5>department of cse</h5>
+    <h6>department of cse</h6>
+
+    <p style="background-color: rgb(223, 189, 255); color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores doloribus sed ipsam. Molestiae veritatis, sapiente esse pariatur minus blanditiis beatae?</p>
+
+    <p><a target="_blank" href="https://www.pexels.com/">Open Pexels</a></p>
+    <p><a target="_parent" href="https://www.facebook.com/">Open Facebook</a></p>
+    <p><a target="_self" href="https://www.youtube.com/">Open Youtube</a></p>
+    <p><a target="_top" href="https://www.fiver.com/">Open Fiver</a></p>
+
+    <hr style="height: 20px ; width: 100%; background-color: brown;">
+    
+    <img src="C:\Users\hp\Desktop\Project\ProjectGitHub\MyProject\Screenshot 2025-03-20 033920.png" alt="This is an image" width="300">
+    <br>
+    <br>
+    <audio src="C:\Users\hp\Desktop\Project\ProjectGitHub\MyProject\E amon porichoy.mp3" controls></audio><br>
+    <video src="C:\Users\hp\Desktop\Project\ProjectGitHub\MyProject\20220511_112047.mp4" width="20%" controls></video>
+
+    <table border="2" >
+        <caption>Student Information</caption>
+        <tr>
+           <th>Name</th>
+           <th>Major</th>
+           <th>Age</th>
+           <th>District</th>
+           <th>Home Town</th>
+        </tr>
+        <tr>
+            <td>Munni</td>
+            <td rowspan="3">CES</td>
+            <td rowspan="2">25</td>
+            <td colspan="2" align="center">Rajshahi</td>
+        </tr>
+        <tr>
+            <td>Tithi</td>
+            <td>Rajshahi</td>
+            <td>Pabna</td>
+        </tr>
+        <tr>
+            <td>Sadia</td>
+            <td>27</td>
+            <td>Kushtia</td>
+            <td>Seikhpara</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <ul type="square" >
+        <li>Munni</li>
+        <li>Tithi</li>
+        <li>Sadia</li>
+    </ul>
+
+    <ul type="circle" >
+        <li>Munni</li>
+        <li>Tithi</li>
+        <li>Sadia</li>
+    </ul>
+    <ul type="disc" >
+        <li>Munni</li>
+        <li>Tithi</li>
+        <li>Sadia</li>
+    </ul>
+
+    <ol type="I">
+        <li>Moriom</li>
+        <li>Imrose</li>
+        <li>Mitu</li>
+    </ol>
+    <ol type="A" start="3">
+        <li>Moriom</li>
+        <li>Imrose</li>
+        <li>Mitu</li>
+    </ol>
+    <ol type="i">
+        <li>Moriom</li>
+        <li>Imrose</li>
+        <li>Mitu</li>
+    </ol>
+
+    <form action="script.js" method="post">
+        <h1>simple form</h1>
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="username" placeholder="Enter your name"><br>
+        <label for="number">Phone Number</label>
+        <input type="number" name="number" id="number"><br>
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="pass" placeholder="Enter your password" required><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email address" required><br>
+        <label for="district">District</label>
+        <select name="district" id="district">
+            <option value="dhaka">Dhaka</option>
+            <option value="rajshahi">Rajshahi</option>
+            <option value="khulna">Khulna</option>
+            <option value="sylhet">Sylhet</option>
+        </select>
+        <br>
+
+        <label for="date">Date of birth :</label>
+        <input type="date" name="date" id="date"><br>
+        <label for="time">choose Time</label>
+        <input type="time" name="time" id="time"><br>
+        <label for="file">Attach a File</label>
+        <input type="file" name="file" id="file"><br>
+        <label for="range">Range</label>
+        <input type="range" name="range" id="range"><br>
+
+        <label for="color">Choose Color :</label>
+        <input type="color" name="color" id="color">
+        <div>
+            <label for="gender">Gender :</label>
+                <input type="radio" id="Male" name="gender" value="male">
+                <label for="Male">Male</label>
+                <input type="radio" id="Female" name="gender" value="female">
+                <label for="Female">Female</label>
+        </div>
+        <br>
+        <label for="comment">Enter ur comment</label><br>
+        <textarea name="comment" id="" cols="30" rows="10"></textarea>
+        <div>
+            <label ><input type="radio" name="option" value="option1">Option_1</label><br>
+            <label ><input type="radio" name="option" value="option2">Option_2</label><br>
+            <label ><input type="radio" name="option" value="option3">Option_3</label><br>
+        </div>
+        <br>
+        <div>
+            <label ><input type="checkbox" name="option" value="option1" onclick="onlyOne(this)">Option_1</label><br>
+            <label ><input type="checkbox" name="option" value="option2" onclick="onlyOne(this)">Option_2</label><br>
+            <label ><input type="checkbox" name="option" value="option3" onclick="onlyOne(this)">Option_3</label><br>
+        </div>
+    
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <input type="button" value="Click Me">
+    </form>
+    <script>
+        function onlyOne(checkbox) {
+        let checkboxes = document.getElementsByName('option');
+        checkboxes.forEach((item) => {
+            if (item !== checkbox) 
+            item.checked = false;
+        });
+    }
+    </script>
+</body>
+</html>

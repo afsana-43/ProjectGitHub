@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(45, 49, 71, 0.7),rgba(45, 49, 71, 0.7)), url('islamic.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    padding: 2% 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 80px;
+}
+.navbar{
+    text-align: right;
+    flex: 1;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 2px 8px;
+    position: relative;
+    display: inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.navbar ul li::after{
+    width: 0%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    content: '';
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.text-box h1{
+    font-size: 40px;
+}
+.text-box p{
+    margin: 10px 0px 40px;
+    font-size: 25px;
+}
+.text-box a{
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 40px;
+    margin-top: 20px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    position: relative;
+    background: transparent;
+    cursor: pointer;
+}
+.text-box a:hover{
+    background-color: rgb(12, 125, 1);
+    color: white;
+    transition: 0.5s;
+}
